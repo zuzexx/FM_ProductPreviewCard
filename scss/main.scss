@@ -9,6 +9,7 @@
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
+    overflow: hidden;
 
 }
 
@@ -56,6 +57,11 @@
     background-color: $neutral3;
     border-radius: 20px;
 }
+@mixin desktop(){
+    @media(min-width:800px){
+        @content;
+    }
+}
 
 body{
     @include body();
@@ -65,12 +71,32 @@ body{
 main{
     @include mainCenter(column);
     @include mainBackground();
+    @include desktop(){
+    
+        @include mainCenter(row);
+        width:95vw;
+        max-width:900px;
+}
+}
+
+.text{
+    @include desktop(){
+        @include mainCenter(column);
+        max-width: 350px;
+    }
 }
 
 img{
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     width:90vw;
+    @include desktop(){
+        border-top-right-radius: 0px;
+        border-bottom-left-radius: 20px;
+       width: 50vw;
+       max-width: 500px;
+
+    }
 }
 
 
@@ -139,5 +165,8 @@ section{
 
     &:hover{
         cursor: pointer;
+    }
+    @include desktop(){
+        width: 300px;
     }
 }
