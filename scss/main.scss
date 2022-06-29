@@ -30,12 +30,12 @@
     align-items: center;
     flex-direction:$direction;
     margin: auto;
-    width:100%;
+    width:90%;
     height:100%;
     background-color: $primary1;
     border:none;
     border-radius: 15px;
-    margin-left: 30px;
+    margin-left: 10px;
     margin-bottom: 30px;
     color:$neutral3;
     font-weight: weight(bold);
@@ -86,16 +86,21 @@ main{
     }
 }
 
-img{
+.image{
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
-    width:90vw;
+    width:100%; //90vw
+    height: 23rem;
+    background-image: url("/images/image-product-mobile.jpg");
+    background-size:cover;
     
     @include desktop(){
         border-top-right-radius: 0px;
         border-bottom-left-radius: 20px;
        width: 50vw;
        max-width: 500px;
+       height:40rem;
+       background-image: url("/images/image-product-desktop.jpg");
            
 
     }
