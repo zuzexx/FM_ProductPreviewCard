@@ -29,7 +29,7 @@ Users should be able to:
 ### Screenshot
 
 ![image](images/desktopCapture.jpg)
-![image](images/mobileCapture.jpg)
+
 
 
 
