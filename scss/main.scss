@@ -79,6 +79,7 @@ main{
         @include mainCenter(row);
         height:450px;
         max-width:600px;
+        margin-top: 40px;
 }
 }
 
@@ -103,7 +104,7 @@ main{
     @include desktop(){
         border-top-right-radius: 0px;
         border-bottom-left-radius: 20px;
-       width: 500px;
+       width: 520px;
        height:472px;
        margin-top: 1px;
        background-image: url("/images/image-product-desktop.jpg");
