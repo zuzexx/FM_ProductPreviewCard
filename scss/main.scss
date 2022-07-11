@@ -79,7 +79,7 @@ main{
         @include mainCenter(row);
         height:450px;
         max-width:600px;
-        margin-top: 40px;
+        margin-top: 80px;
 }
 }
 
@@ -124,7 +124,7 @@ h1{
     margin-left: 30px;
     margin-bottom: -10px;
     @include desktop(){
-        margin-top: 70px;
+        margin-top: 90px;
     }
 }
 
@@ -145,14 +145,14 @@ h2{
     font-family: $font-family1;
     margin-left: 30px;
     margin-right: 40px;
-    line-height: 2rem;
+    line-height: 1.5rem;
     margin-top: -10px;
 }
 
 section{
     @include sectionCenter(row);
     @include desktop(){
-        margin-top: -45px;
+        margin-top: -20px;
     }
 }
 
@@ -160,7 +160,7 @@ section{
     margin-left:30px;
     color:$primary1;
     font-family: $font-family2;
-    font-size: 35px;
+    font-size: 32px;
     font-weight:weight(bold);
 }
 
@@ -193,8 +193,9 @@ section{
         width: 280px;
         margin-left: 15px;
         height: 120px;
-        padding-top:15px;
-        padding-bottom: 15px;
+        padding-top:13px;
+        padding-bottom: 13px;
+        margin-top: 3px;
     }
 }
 footer{
