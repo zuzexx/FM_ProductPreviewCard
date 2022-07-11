@@ -77,7 +77,7 @@ main{
     @include desktop(){
     
         @include mainCenter(row);
-        height:450px;
+        height:420px;
         max-width:600px;
         margin-top: 60px;
 }
@@ -104,8 +104,8 @@ main{
     @include desktop(){
         border-top-right-radius: 0px;
         border-bottom-left-radius: 20px;
-       width: 520px;
-       height:472px;
+       width: 550px;
+       height:440px;
        margin-top: 1px;
        background-image: url("/images/image-product-desktop.jpg");
            
@@ -135,7 +135,7 @@ h2{
     margin-left: 30px;
     margin-right: 30px;
     @include desktop(){
-        font-size: 35px;
+        font-size: 33px;
     }
 }
 
@@ -156,7 +156,7 @@ h2{
 section{
     @include sectionCenter(row);
     @include desktop(){
-        margin-top: -20px;
+        margin-top: -30px;
     }
 }
 
@@ -197,9 +197,9 @@ section{
         width: 280px;
         margin-left: 15px;
         height: 120px;
-        padding-top:13px;
-        padding-bottom: 13px;
-        margin-top: 3px;
+        padding-top:10px;
+        padding-bottom: 10px;
+        margin-top: -3px;
     }
 }
 footer{
